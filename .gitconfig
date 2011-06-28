@@ -1,0 +1,22 @@
+[user]
+	name = Tatiana Al-Chueyr
+	email = tatiana.alchueyr@gmail.com
+
+[github]
+	user = tatiana
+	token = censored
+
+[color]
+	ui = auto
+
+[alias]
+	br = branch
+	ci = commit
+	co = checkout
+	df = diff
+	lg = log -p
+        t = describe --exact-match --tags HEAD
+	st = status
+	w = whatchanged
+	who = shortlog -s --
+
