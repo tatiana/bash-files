@@ -17,6 +17,10 @@ alias graph_models="./manage.py graph_models -a -g -o \!^.png"
 ## MacOS specific
 alias gvim='/Applications/MacVim.app/Contents/MacOS/Vim -g'
 
+# [SOURCES]
+
+source `which virtualenvwrapper.sh`
+
 # [PATHS]
 
 export PATH=$PATH:$HOME/usr/bin:/usr/local/sbin:/data/usr/bin:/opt/local/bin:/opt/local/sbin:
@@ -36,3 +40,8 @@ fi
 # MacOS specific
 # copy or tar files without ._ (dot underscore) files in OSX
 export COPY_EXTENDED_ATTRIBUTES_DISABLED=true
+
+# Globo.com stuff
+export PYTHONPATH=$HOME/Code/publicacao-core/publicacao:$HOME/Code/dynamo:$HOME/lib/python:$PYTHONPATH
+export VIRTUOSO_HOME=/usr/local/Cellar/virtuoso/6.1.2
+
